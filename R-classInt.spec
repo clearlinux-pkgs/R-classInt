@@ -4,7 +4,7 @@
 #
 Name     : R-classInt
 Version  : 0.3.1
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/classInt_0.3-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/classInt_0.3-1.tar.gz
 Summary  : Choose Univariate Class Intervals
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552727467
+export SOURCE_DATE_EPOCH=1552955335
 
 %install
-export SOURCE_DATE_EPOCH=1552727467
+export SOURCE_DATE_EPOCH=1552955335
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
