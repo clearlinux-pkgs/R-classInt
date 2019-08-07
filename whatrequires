@@ -1,4 +1,5 @@
 # This file contains recursive sources that require this package
+R-lwgeom
 R-questionr
 R-sf
 R-spdep
