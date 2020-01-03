@@ -4,7 +4,7 @@
 #
 Name     : R-classInt
 Version  : 0.4.2
-Release  : 30
+Release  : 31
 URL      : https://cran.r-project.org/src/contrib/classInt_0.4-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/classInt_0.4-2.tar.gz
 Summary  : Choose Univariate Class Intervals
