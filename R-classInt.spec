@@ -4,7 +4,7 @@
 #
 Name     : R-classInt
 Version  : 0.4.9
-Release  : 56
+Release  : 57
 URL      : https://cran.r-project.org/src/contrib/classInt_0.4-9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/classInt_0.4-9.tar.gz
 Summary  : Choose Univariate Class Intervals
@@ -14,9 +14,6 @@ Requires: R-classInt-lib = %{version}-%{release}
 Requires: R-e1071
 BuildRequires : R-e1071
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 No detailed description available
@@ -38,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1677603506
+export SOURCE_DATE_EPOCH=1678811964
 
 %install
-export SOURCE_DATE_EPOCH=1677603506
+export SOURCE_DATE_EPOCH=1678811964
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
